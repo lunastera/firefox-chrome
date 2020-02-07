@@ -1,5 +1,9 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
+/* アドレスバーにある […] から開く [タブを端末へ送信] を非表示 */
+#pageAction-panel-sendToDevice,
+#pageAction-urlbar-sendToDevice {display: none !important;}
+
 /* hide tabbar only */
 #tabbrowser-tabs {
   visibility: collapse !important;
